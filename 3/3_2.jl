@@ -66,7 +66,6 @@ function find_bin_least(x)
     return reduce(*,x)
 end
 
-
 x = reduce(hcat, collect.(x))
 x = collect(parse.(Int, x)')
 
